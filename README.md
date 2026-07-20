@@ -6,6 +6,8 @@ I lead product design and implementation across web, mobile, data, and go-to-mar
 
 **Portfolio:** [pranavv-rajamani-portfolio.pranavvrajamani9.chatgpt.site](https://pranavv-rajamani-portfolio.pranavvrajamani9.chatgpt.site) — a visual overview of selected systems, engineering approach, and delivery standards.
 
+**Technical case studies + runnable sample:** [pranavv-engineering-portfolio](https://github.com/pranavvrajamani9-lgtm/pranavv-engineering-portfolio) — sanitized architecture case studies for every product, alongside executable examples of guarded workflow, authorization, idempotency, and audit-evidence patterns.
+
 ## Engineering focus
 
 - TypeScript across Next.js and React Native/Expo applications
