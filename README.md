@@ -4,6 +4,8 @@
 
 I lead product design and implementation across web, mobile, data, and go-to-market workflows. I focus on systems that must be understandable to nontechnical operators while remaining rigorous about tenancy, privacy, failure handling, and operational correctness.
 
+**Portfolio:** [pranavv-rajamani-portfolio.pranavvrajamani9.chatgpt.site](https://pranavv-rajamani-portfolio.pranavvrajamani9.chatgpt.site) — a visual overview of selected systems, engineering approach, and delivery standards.
+
 ## Engineering focus
 
 - TypeScript across Next.js and React Native/Expo applications
