@@ -12,6 +12,23 @@ I lead product design and implementation across web, mobile, data, and go-to-mar
 - Automated quality gates with Playwright, TypeScript, linting, accessibility checks, and deployment preflights
 - End-to-end product ownership from discovery through implementation, instrumentation, launch planning, and sales enablement
 
+## Delivery discipline
+
+I build beyond the interface. The systems below are designed around explicit access boundaries, deterministic state changes, recoverable failure modes, and repeatable validation—not just happy-path demos.
+
+- Tenant-scoped data access, role-aware permissions, and protected administrative actions
+- Input validation, idempotency, audit trails, and reconciliation for external-provider workflows
+- Automated browser/mobile checks, static analysis, production builds, and deployment-readiness gates
+- Clear separation between local/demo behavior and production-only credentials, billing, and provider actions
+
+## Representative engineering evidence
+
+- **Program Command Center:** a multi-tenant release with ordered database migrations, rollback fixtures, append-only evidence, tenant safety checks, and a 453-test Playwright verification suite.
+- **Hoop Nest:** mobile end-to-end flows for director, coach, parent, team, event, attendance, feed, and chat workflows, alongside protected organization/team access boundaries.
+- **SignalDesk:** source-integrity, quota, recovery, and provider-outage checks that preserve uncertainty instead of fabricating research output.
+- **Outreach Research Engine:** a 100-test browser suite covering evidence gates, import/export safety, static-output integrity, and security headers.
+- **Dial AI:** CI-backed lint/build validation, local demo fallbacks, server-side integration boundaries, and a reviewed maintenance workflow for dependency updates.
+
 ## Selected systems
 
 ### Hoop Nest — mobile operations platform
