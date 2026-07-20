@@ -10,6 +10,8 @@ I lead product design and implementation across web, mobile, data, and go-to-mar
 
 **Technical case studies + runnable sample:** [pranavv-engineering-portfolio](https://github.com/pranavvrajamani9-lgtm/pranavv-engineering-portfolio) — sanitized architecture case studies for every product, alongside executable examples of guarded workflow, authorization, idempotency, and audit-evidence patterns.
 
+**Public reference implementations:** [pranavv-product-demos](https://github.com/pranavvrajamani9-lgtm/pranavv-product-demos) — organized, synthetic product workflow implementations with source code, documentation, tests, and a local API reference. These expose engineering patterns without publishing private production systems.
+
 
 ## Engineering focus
 
