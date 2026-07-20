@@ -10,7 +10,6 @@ I lead product design and implementation across web, mobile, data, and go-to-mar
 
 **Technical case studies + runnable sample:** [pranavv-engineering-portfolio](https://github.com/pranavvrajamani9-lgtm/pranavv-engineering-portfolio) — sanitized architecture case studies for every product, alongside executable examples of guarded workflow, authorization, idempotency, and audit-evidence patterns.
 
-**Runnable product demos:** [use the live demos](https://pranavv-rajamani-portfolio.pranavvrajamani9.chatgpt.site/demos) or [inspect the source](https://github.com/pranavvrajamani9-lgtm/pranavv-product-demos). Five original, synthetic demos with a clear public/private boundary, including a full-stack local API reference with guarded state transitions, idempotency, audit events, and automated tests.
 
 ## Engineering focus
 
