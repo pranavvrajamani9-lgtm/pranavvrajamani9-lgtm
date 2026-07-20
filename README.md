@@ -1,48 +1,57 @@
 # Pranavv Rajamani
 
-### Full-Stack Developer · Founder · Sales & Product Builder
+### Full-Stack Developer · Product Engineer · Founder
 
-I build practical software from first idea through product, operations, and go-to-market. My work blends full-stack engineering, mobile development, AI-enabled workflows, data systems, and founder-led sales tools.
+I lead product design and implementation across web, mobile, data, and go-to-market workflows. I focus on systems that must be understandable to nontechnical operators while remaining rigorous about tenancy, privacy, failure handling, and operational correctness.
 
-## What I build
+## Engineering focus
 
-- Full-stack web applications with secure backends and role-based workflows
-- Mobile products for real-world teams and families
-- AI-assisted research, coaching, and operations tools
-- Growth systems for lead capture, conversion, reporting, and follow-up
-- Reliable product foundations: testing, privacy controls, audit trails, and clear operational runbooks
+- TypeScript across Next.js and React Native/Expo applications
+- Supabase/Postgres data models, row-level security, role-aware workflows, and auditability
+- Production-oriented API design: idempotency, validation, bounded retries, provider reconciliation, and fail-closed behavior
+- Automated quality gates with Playwright, TypeScript, linting, accessibility checks, and deployment preflights
+- End-to-end product ownership from discovery through implementation, instrumentation, launch planning, and sales enablement
 
-## Selected work
+## Selected systems
 
-### Hoop Nest
-Mobile operations platform for youth sports programs and families. Covers organization access, team spaces, onboarding, events, attendance, communication, and parent workflows.
+### Hoop Nest — mobile operations platform
 
-**Built with:** React Native, Expo, TypeScript, Supabase, mobile E2E testing
+A mobile product for youth sports organizations and families, covering identity, organization/team access, onboarding, event workflows, attendance, communication, and parent-facing operations.
 
-### Hoop Nest Program Command Center
-Founder-led growth and conversion platform for sports programs. Supports campaign setup, parent signup pages, tracking links, lead pipelines, conversion steps, reporting, creative workflows, and guarded provider integrations.
+**Technical scope:** React Native, Expo, TypeScript, Supabase, role-aware access controls, mobile end-to-end test flows.
 
-**Built with:** Next.js, TypeScript, Supabase, Playwright, Vercel, Meta/Resend integration architecture
+### Hoop Nest Program Command Center — acquisition and conversion platform
 
-### SignalDesk
-Evidence-first public-company research workspace that makes sources, uncertainty, counterarguments, and scenario assumptions visible instead of presenting unsupported recommendations.
+A multi-tenant operating system for program growth: campaign setup, attribution, parent signup, lead normalization, conversion evidence, reporting, creative approval, and controlled provider integrations.
 
-**Built with:** Next.js, TypeScript, research-data workflows, security and source-integrity controls
+**Technical scope:** Next.js, TypeScript, Supabase/Postgres, row-level security, append-only evidence, idempotent mutations, Playwright, Vercel, and guarded Meta/Resend integration boundaries.
 
-### Outreach Research Engine
-Source-backed company research and outreach workflow. Organizes public company evidence, verifies outreach readiness, and generates structured discovery-call drafts while keeping unverified information out of send-ready workflows.
+### SignalDesk — evidence-first research workspace
 
-**Built with:** Cloudflare Workers, JavaScript, Playwright, browser-storage safeguards, security headers
+A research workspace for public-company analysis that preserves source provenance, uncertainty, counterarguments, and scenario assumptions rather than presenting unsupported investment conclusions.
 
-### Dial AI
-AI-powered cold-call coaching tool focused on helping users practice, improve, and review sales conversations.
+**Technical scope:** Next.js, TypeScript, source-integrity controls, quota-aware provider handling, security headers, and research-data quality gates.
 
-**Built with:** AI product workflows, sales enablement, conversation coaching
+### Outreach Research Engine — verified outreach preparation
 
-## How I work
+A source-backed workflow for discovering companies, reviewing public evidence, enforcing outreach-readiness criteria, and producing structured discovery-call drafts without promoting unverified information to send-ready status.
 
-I care about the full product lifecycle: user experience, reliable implementation, security, testing, deployment readiness, and the business workflow around the software. I build with a founder mindset—move quickly, keep the system understandable, and make the result useful to real people.
+**Technical scope:** Cloudflare Workers, JavaScript, Playwright, static-build verification, CSP/security headers, import sanitization, and browser-storage resilience.
+
+### Dial AI — sales conversation coaching
+
+An AI-assisted practice environment for improving cold-call structure, sales communication, and conversation review.
+
+**Technical scope:** AI product design, sales enablement workflows, and conversational feedback systems.
+
+## Working principles
+
+- Model the real workflow before automating it.
+- Keep privileged actions explicit, traceable, and reversible where possible.
+- Treat external-provider failures as states to reconcile, not reasons to blindly retry.
+- Use tests and operational checks as part of product design, not as an afterthought.
+- Build systems that help operators make informed decisions instead of hiding uncertainty.
 
 ## Portfolio note
 
-These are private product builds. This profile intentionally shares project scope and technical strengths without publishing client data, credentials, private operational documents, or proprietary source code. Demos and deeper technical walkthroughs are available on request.
+The underlying products remain private by design. This profile documents their engineering scope without publishing client data, credentials, internal operating procedures, or proprietary source code. Technical walkthroughs and demos are available on request.
